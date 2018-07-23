@@ -1,0 +1,13 @@
+{
+    "name": "technogise/chess",
+    "description": "\"Chess board simulation\"",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kapil Sharma",
+            "email": "kapil@kapilsharma.info"
+        }
+    ],
+    "require": {}
+}
