@@ -7,6 +7,8 @@ use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 
+use Phpreboot\Chess\Board\ChessBoard;
+
 class ChessCommand extends Command
 {
     public function configure()
@@ -24,5 +26,8 @@ class ChessCommand extends Command
 
         $output->writeln('Piece = ' . $piece);
         $output->writeln('Initial position = ' . $position);
+
+        $chessBoard = new ChessBoard();
+
     }
 }
